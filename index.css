@@ -134,7 +134,7 @@ img{
 	background-repeat: no-repeat;
    }
 
-@media screen and (max-width: 0px) { 
+@media screen and (max-width: 1036px) { 
 	figure .trasera {
 		/*position: relative;*/
 		backface-visibility:visible;
