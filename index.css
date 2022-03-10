@@ -128,6 +128,12 @@ img{
 	height: 120px;
 }
 
+#background{
+	background-image: url('');
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+
 @media screen and (max-width: 0px) { 
 	figure .trasera {
 		/*position: relative;*/
@@ -141,8 +147,9 @@ img{
 
 }
 
-#background{
-	background-image: url('fondo.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-   }
+@media only screen and (min-device-width: 1036px) {
+	#background {
+	  background-image: url('fondo.png');
+	}
+  }
+
